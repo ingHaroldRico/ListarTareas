@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(to top, blue , rgb(103, 178, 218));
+    color: white;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 0;
+}
+button{
+    background-color: rgb(36, 36, 235);
+    color:white;
+    padding: 2px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 6px;
+    margin: 2px 0 8px 0;
+
+}
+.caja{
+    border: 3px solid #eee;
+    border-radius: 8px; 
+    padding: 8px;
+    min-width: 350px;
+}
+p{
+    min-width: 200px;
+    border: 2px solid rgb(122, 122, 251);
+    margin: 2px 0 2px 0;
+    border-radius: 10px;
+    padding: 5px;
+}
+input{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    min-width: 350px;
+}
