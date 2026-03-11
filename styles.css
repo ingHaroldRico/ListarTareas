@@ -11,22 +11,51 @@ body{
     font-size: 20px;
     margin: 0;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    color:#eee;
+    background-color:rgb(226, 39, 39);
+    margin: 0;
+    height: 20px;
+    font-size: 8px;
+    font-weight: bolder;
+}
 button{
     background-color: rgb(36, 36, 235);
     color:white;
     padding: 2px;
     border-radius: 8px;
-    font-size: 22px;
+    font-size: 18px;
     padding: 6px;
     margin: 2px 0 8px 0;
 
 }
-.caja{
+.parrafox{
+    padding: 0;
+    margin: 0;
+}
+.elemento{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid white;
+    align-items: center;
+    padding: 5px;
+    height: 30px;
+    gap: 2px;
+    
+}
+.caja{ 
+
     border: 3px solid #eee;
     border-radius: 8px; 
-    padding: 8px;
-    min-width: 350px;
+    padding: 5px;
+    min-width: 200px;  
 }
+lista
 p{
     min-width: 200px;
     border: 2px solid rgb(122, 122, 251);
