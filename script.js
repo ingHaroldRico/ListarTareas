@@ -14,7 +14,7 @@ function ejecutarBoton(){
       btn.className="btn"
       contenedor.appendChild(btn)
       listaContenedor.appendChild(contenedor)
-      
+      texto.value=""
       
       function eliminar(){
          contenedor.remove()
