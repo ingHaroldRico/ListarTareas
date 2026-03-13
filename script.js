@@ -2,7 +2,11 @@ const boton=document.getElementById("btn")
 const texto=document.getElementById("caja")
 const listaContenedor=document.getElementById("lista")
 function ejecutarBoton(){
-   if(texto.value!=""){
+   if (texto.value.trim()==""){
+      texto.value=""
+      alert("Debes de Ingresar tarea")
+   }
+   else {
       const contenedor=document.createElement("div")
       const parrafo=document.createElement("p")
       parrafo.textContent=texto.value
@@ -21,9 +25,7 @@ function ejecutarBoton(){
       }
       btn.addEventListener("click", eliminar)
    }
-   else{
-      alert("Debes de Ingresar tarea")
-   }
+  
 
 }
 boton.addEventListener("click", ejecutarBoton)
